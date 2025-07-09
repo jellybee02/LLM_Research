@@ -3,7 +3,11 @@ import openai
 import pandas as pd
 from geopy.distance import geodesic
 
-openai.api_key = "your-api-key"
+# openai.api_key = "your-api-key"
+
+key = open('../../api_key.txt','r')
+api_key = key.read()
+openai.api_key = api_key
 
 # 샘플 공구 대여소 데이터 (위도, 경도 포함)
 tool_rentals = pd.DataFrame([
