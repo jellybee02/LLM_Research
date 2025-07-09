@@ -17,6 +17,8 @@ tool_rentals = pd.DataFrame([
     {"name": "건설툴 서초점", "lat": 37.4830, "lon": 127.0322, "address": "서울 서초구 방배로 56"},
 ])
 
+df = pd.read_csv("./data/prep3.csv", encoding='cp949')
+
 # 사용자 입력
 st.title("🔧 공구 대여 도우미 챗봇")
 
