@@ -1,0 +1,6 @@
+openai
+haversine
+streamlit
+numpy
+pandas
+requests

@@ -1,11 +1,9 @@
 import streamlit as st
 from openai import OpenAI
-import pandas as pd, openai
-# from geopy.distance import geodesic
 from haversine import haversine, Unit
 # from .script.run import get_lat_lon
 import requests, pickle
-import numpy as np, pandas as pd, warnings, os, openai, json
+import numpy as np, pandas as pd, warnings, os, json, openai
 from tqdm.auto import tqdm
 from openai import OpenAI
 warnings.filterwarnings('ignore')
@@ -14,7 +12,7 @@ from typing import List, Tuple, Union
 from langchain_ollama.embeddings import OllamaEmbeddings
 import pickle
 from sklearn.metrics.pairwise import cosine_similarity
-from haversine import haversine, Unit
+
 # openai.api_key = "your-api-key"
 key = open('../../api_key.txt','r')
 
