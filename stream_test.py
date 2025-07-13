@@ -23,6 +23,8 @@ df = pd.read_csv("./data/prep3.csv", encoding='cp949')
 st.title("🔧 공구 대여 도우미 챗봇")
 
 tool = st.text_input("원하는 공구를 입력하세요 (예: 전동드릴)")
+location = st.text_input("원하는 현재 위치를 입력하세요 (예: 전동드릴)")
+
 lat = st.number_input("현재 위치 위도 입력", format="%.6f")
 lon = st.number_input("현재 위치 경도 입력", format="%.6f")
 

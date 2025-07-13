@@ -154,7 +154,29 @@ print("가까운 대여소 : ", df_s[use_col].head(3).T.to_dict())
 print("💬 GPT 응답:", answer)
 
 
+def invoke(
+           prompt,
+           api_key=api_key,
+           model="gpt-4o",
+           temperature=0.7):
+    client = OpenAI(api_key=api_key)
 
+    # 메시지 구성
+    messages = [
+        # {"role": "system", "content": prompt},
+        {"role": "user", "content": prompt}
+    ]
+    # 스트리밍 요청
+    stream = client.chat.completions.create(
+        model=model,
+        messages=messages,
+        temperature=temperature,
+        # stream=True  # ⭐ 핵심 옵션!
+    )
+
+    # generator 반환 (chunk 단위 텍스트 출력)
+    return stream
+    
 
 
 
