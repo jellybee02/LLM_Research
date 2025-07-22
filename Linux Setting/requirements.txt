@@ -4,3 +4,6 @@ streamlit
 numpy
 pandas
 requests
+langchain
+langchain_ollama
+langgraph
