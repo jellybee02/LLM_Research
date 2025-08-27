@@ -27,3 +27,6 @@ def ask_question(request: QuestionRequest):
         return {"question": request.question, "answer": answer}
     else:
         return {"question": request.question, "answer": "답변을 찾을 수 없습니다."}
+
+
+# dfdfd
