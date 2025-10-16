@@ -32,3 +32,7 @@ https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=
 
 
 
+
+
+3. FastAPI를 활용한 Agent 개발
+2번에서 진행한 내용을 가지고 추가적으로 API 개발까지 진행해볼 예정 이후 간단한 UI 구성을 통해 API를 넘겨주는 영역까지 진행해보려고 함.
