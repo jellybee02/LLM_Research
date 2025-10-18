@@ -75,4 +75,4 @@ ver.GPT , ver.Gemma 버전 적용 완료 -> script/run_script.ipynb
 현재 docker를 활용해서 베포를 준비해보려고 하며, kafka와 postgreSQL을 이용한 데이터 저장 등을 이용하려고 한다.
 
 
-
+streamlit run streamlit_test_edit1.py
