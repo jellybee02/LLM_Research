@@ -14,7 +14,7 @@ import pickle
 from sklearn.metrics.pairwise import cosine_similarity
 
 # openai.api_key = "your-api-key"
-key = open('../../api_key.txt','r')
+key = open('../../../api_key.txt','r')
 
 api_key = key.read()
 
