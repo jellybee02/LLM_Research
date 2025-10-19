@@ -24,13 +24,10 @@ https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=
 
 
 
-
 2. Langgraph 기반 전문 지식 답변 프로젝트
 -> Ai hub에서 데이터 선정 : 필수의료 의학지식 데이터
 해당 데이터를 통해 질문을 통한 과 구분 및 과별 전문 지식 기반의 높은 퀄리티의 답변 유도 예정
 해당 데이터를 통해 의료분야별 질문에 대한 고도화된 내용 응답을 이루어볼것.
-
-
 
 
 
