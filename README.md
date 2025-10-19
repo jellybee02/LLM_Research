@@ -36,3 +36,11 @@ https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=
 
 3. FastAPI를 활용한 Agent 개발
 2번에서 진행한 내용을 가지고 추가적으로 API 개발까지 진행해볼 예정 이후 간단한 UI 구성을 통해 API를 넘겨주는 영역까지 진행해보려고 함.
+
+
+2025-10-19
+오라클 서버에서 작동하는 AI Agent를 개발하기 위해 서버 생성 및 접속 완료.
+main1에 miniconda 환경에서 python 코드 동작시키기 위해서 세팅 완료한 상태
+ubuntu 환경
+서버에 DB 구성 API 적용, docker를 활용한 서비스 구현까지 해보려고 함.
+
