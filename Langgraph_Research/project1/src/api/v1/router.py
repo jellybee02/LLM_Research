@@ -5,7 +5,10 @@ from src.api.v1.routes.health import router as health_router
 # from src.api.v1.routes.rag import router as rag_router
 # from src.api.v1.routes.qa import router as qa_router
 
-api_v1_router = APIRouter(prefix="/api/v1")
+base_path = "/api/v1"
+
+
+api_v1_router = APIRouter(prefix=base_path)
 
 # 라우터들을 v1 하위로 묶어 등록
 api_v1_router.include_router(health_router, tags=["health"])
