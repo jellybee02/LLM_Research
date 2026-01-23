@@ -17,3 +17,5 @@ def solve(req: SolveRequest):
     # TODO: services.qa_service 로직 호출로 교체
     dummy_answer = "(dummy) 정답: 아직 연결 안됨"
     return SolveResponse(answer=dummy_answer)
+
+
